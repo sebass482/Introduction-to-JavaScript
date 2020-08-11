@@ -1,12 +1,17 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
+votingAge = 20
+if (votingAge > 18) {
+    console.log("true")
+}
 
 
 
 
 
 //Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
-
+first = 1;
+first =(first-1);
 
 
 
@@ -18,6 +23,9 @@
 
 
 //Task d: Write a function to multiply a*b 
+function multiply (a,b){
+    return (a*b);
+}
 
 
 
@@ -26,7 +34,10 @@
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-
+dogYears = 7;
+function dogConvert(myAge,dogYears){
+    return(myAge*dogYears);
+}
 
 
 
@@ -59,20 +70,26 @@
 // it should return you won or you lost based on the rules of the game (you may need to look up the rules if you have not played before)
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
-
+function rockPaperScissors (string){
+    
+}
   
   
 
 /************************************************************** Task 5 **************************************************************/
 //Metric Converter
 //a. KM to Miles - should take the number of kilometers and convert it to the equal number of miles
-
+function kilometersToMiles(kilometers){
+    return kilometersToMiles(kilometers*0.62) = kmInMiles;
+}
 
 
 
 
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
-  
+  function feetToCentimeters(feet){
+    return feetToCentimeters(feet*30) = ftInCentimeters;
+  }
 
 
 
@@ -94,7 +111,18 @@
 //70s should be Cs 
 //60s should be D 
 //and anything below 60 should be F
-  
+  function gradeCalculator(grade){
+    if (grade >= 90){
+        return "A";
+    }else if(grade>=80){
+        return "B";
+    }else if(grade>=70){
+        return "C";
+    }else if(grade>=60){
+        return "D";
+  } else{
+      return "F";
+  }
 
   
   
