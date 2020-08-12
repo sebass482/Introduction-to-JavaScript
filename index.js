@@ -119,22 +119,43 @@ console.log(rockPaperScissors("paper"))
 function kilometersToMiles(kilometers){
   return (kilometers)*0.62;
 }
-
-
-
-
 //b. Feet to CM - should take the number of feet and convert it to the equal number of centimeters
 
 function feetToCentimeters(feet){
   return (feet)*30.48;
 } 
 
-
-
-
-  
-
-
+/************************************************************** Task 6 **************************************************************/
+// 99 bottles of soda on the wall
+// create a function called annoyingSong
+// the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
+function annoyingSong(startingNumber){
+  for(let i=startingNumber;i>0;i--){
+    console.log(i); 
+  }
+}
+console.log(annoyingSong(10));
+ /************************************************************** Task 7 **************************************************************/
+//Grade Calculator
+//write a javaScript program that takes a mark out of 100 and returns a corisponding letter grade 
+//90s should be A 
+//80s should be B 
+//70s should be Cs 
+//60s should be D 
+//and anything below 60 should be F
+function gradeCalculator(grade){
+  if (grade >= 90){
+      return "A";
+  }else if(grade>=80){
+      return "B";
+  }else if(grade>=70){
+      return "C";
+  }else if(grade>=60){
+      return "D";
+  } else{
+    return "F";
+  }
+}
 /************************************************************** Stretch **************************************************************/
 //Create a function that counts the number of vowels within a string. It should handle both capitalized and uncapitalized vowels.
 // Hint - you may need to study tomorrow's traning kit on arrays 
@@ -143,8 +164,3 @@ function feetToCentimeters(feet){
 /************************************************************** Stretch **************************************************************/
 //Take Rock, Paper, Sissors further
 //update your rock papers sissors code below to take a prompt from a user using the window object
-
-
-
-
-
