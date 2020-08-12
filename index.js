@@ -1,5 +1,5 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
-CHANGE
+
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
 /*votingAge = 20
 if (votingAge > 18) {
