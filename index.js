@@ -1,24 +1,33 @@
 /************************************************************** Task 1: Warm-up! **************************************************************/
 //Task a: declare a variable called votingAge, console log true if age > 18 (no function required)
-votingAge = 20
+/*votingAge = 20
 if (votingAge > 18) {
     console.log("true")
+} else {
+    return "false";
+}
+
+var work = "finally";
+*/
+
+
+//Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
+let first = 1;
+let second = 2;
+//if(behaviour==="good"){
+  //  first=1
+//} else if (behaviour === "bad"){
+  //  first=2
+//} else () 
+if (second > first){
+    first = (first + 1)
 }
 
 
 
-
-
-//Task b: declare a variable and then use a conditional to change the value of that variable based on the value assigned to a second variable (no function required)
-first = 1;
-first =(first-1);
-
-
-
-
 //Task c: Convert string ("1999") to integer (1999)  (no function required) // hint look up the Number method
-
-
+const string = "1999";
+Number(string);
 
 
 
@@ -34,9 +43,9 @@ function multiply (a,b){
 /************************************************************** Task 2 **************************************************************/
 //Age in Dog years
 //write a function that takes your age and returns it to you in dog years - they say that 1 human year is equal to seven dog years 
-dogYears = 7;
-function dogConvert(myAge,dogYears){
-    return(myAge*dogYears);
+
+function dogAge(myAge){
+    return(myAge)*7;
 }
 
 
@@ -45,7 +54,9 @@ function dogConvert(myAge,dogYears){
 /************************************************************** Task 3 **************************************************************/
 //Dog feeder 
 //takes weight in pounds and age in years (note if the dog is a puppy the age will be a decimal) and returns the number of pounds of raw food to feed in a day.
+function dogFeeder(weight) {
 
+}
 //feeding requirements
 // adult dogs at least 1 year 
 // up to 5 lbs - 5% of their body weight
@@ -71,7 +82,7 @@ function dogConvert(myAge,dogYears){
 // use math.random to determine the computers choice 
 // hint while you can complete this with only conditionals based on strings it may help to equate choice to a number 
 function rockPaperScissors (string){
-    
+
 }
   
   
@@ -99,7 +110,9 @@ function kilometersToMiles(kilometers){
 // create a function called annoyingSong
 // the function should take a starting number as an argument and count down - at each iteration it should log (number) bottles of soda on the wall, (number) bottles of soda, take one down pass it around (number left over) bottles of soda on the wall`
   
+function annoyingSong(number){
 
+}
 
 
 
